@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,6 +28,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Script src="https://unpkg.com/supersimpledev@8.6.4/external-library.js" />
+        <Script src="https://unpkg.com/supersimpledev/react.js" />
+        <Script src="https://unpkg.com/supersimpledev/react-dom.js" />
+        <Script src="https://unpkg.com/supersimpledev/chatbot.js" />
+        <Script src="https://unpkg.com/supersimpledev/babel.js" />
         {children}
       </body>
     </html>

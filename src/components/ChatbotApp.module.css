@@ -1,0 +1,74 @@
+.welcomeMessage {
+  text-align: center;
+  color: rgb(120, 120, 120);
+}
+
+.sendButton {
+  background-color: rgb(25, 135, 84);
+  color: white;
+  padding: 12px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.chatInput {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border-width: 1px;
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+.chatInputContainer {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.appContainer {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatMessageUser {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+
+.chatMessageRobot {
+  display: flex;
+  align-items: start;
+}
+
+.chatMessageText {
+  background-color: rgb(238, 238, 238);
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+.chatMessageProfile {
+  width: 45px;
+}
+
+.chatMessagesContainer {
+  flex-grow: 1;
+  margin-top: 20px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.loadingImage {
+  height: 40px;
+  margin: -15px;
+}
