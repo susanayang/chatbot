@@ -1,6 +1,7 @@
 .welcomeMessage {
   text-align: center;
   color: rgb(120, 120, 120);
+  margin-top: 20px;
 }
 
 .sendButton {
