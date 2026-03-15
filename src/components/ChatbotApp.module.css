@@ -1,6 +1,13 @@
+body {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .welcomeMessage {
   text-align: center;
   color: rgb(120, 120, 120);
+  margin-top: 20px;
 }
 
 .sendButton {
@@ -48,7 +55,7 @@
 }
 
 .chatMessageText {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(92, 17, 17);
   padding: 15px 20px;
   border-radius: 10px;
   margin-right: 10px;
@@ -68,7 +75,7 @@
   scrollbar-width: none;
 }
 
-.loadingImage {
+/* .loadingImage {
   height: 40px;
   margin: -15px;
-}
+} */
