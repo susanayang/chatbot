@@ -76,8 +76,3 @@ body {
   overflow: scroll;
   scrollbar-width: none;
 }
-
-.loadingImage {
-  height: 40px;
-  margin: -15px;
-}
