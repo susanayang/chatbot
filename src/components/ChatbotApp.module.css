@@ -27,6 +27,7 @@ body {
   border-width: 1px;
   font-size: 15px;
   flex-grow: 1;
+  background-color: rgb(238, 238, 238);
 }
 
 .chatInputContainer {
@@ -41,6 +42,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .chatMessageUser {
@@ -55,7 +57,7 @@ body {
 }
 
 .chatMessageText {
-  background-color: rgb(92, 17, 17);
+  background-color: rgb(238, 238, 238);
   padding: 15px 20px;
   border-radius: 10px;
   margin-right: 10px;
@@ -75,7 +77,7 @@ body {
   scrollbar-width: none;
 }
 
-/* .loadingImage {
+.loadingImage {
   height: 40px;
   margin: -15px;
-} */
+}
